@@ -17,7 +17,7 @@ public class main {
     private static EntityManager em;
     public static void main(String[] args) {
         EntityManegerDAO.create();
-                LoadFileForm loadFileForm = new LoadFileForm();
+        LoadFileForm loadFileForm = new LoadFileForm();
         loadFileForm.run(TIPOARQUIVO.CANDIDATO);
         loadFileForm.run(TIPOARQUIVO.CONCURSO);
         MainFrameMenu mainFrameMenu = new MainFrameMenu();
